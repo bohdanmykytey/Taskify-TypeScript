@@ -3,11 +3,12 @@ import React from "react";
 interface todoProps  {
   todo: string;
   setTodo: React.Dispatch<React.SetStateAction<string>>
+  handleAdd: (event: React.FormEvent) => void;
 }
 
-const InputField = ({todo, setTodo}: todoProps) => {
+const InputField = ({todo, setTodo, handleAdd}: todoProps) => {
   return (
-    <form className="input">
+    <form className="input" onSubmit={handleAdd}>
       <input 
         type="input" 
         placeholder="Enter a task" 
