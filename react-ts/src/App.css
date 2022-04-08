@@ -65,6 +65,12 @@
   box-shadow: 0 0 10px black;
 }
 
+.todos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-wrap: wrap;
+}
 
 @media (min-width: 768px) {
   .heading {
