@@ -1,6 +1,7 @@
 import { Todo } from '../model'
 import { AiFillEdit, AiFillDelete } from 'react-icons/ai'
 import { MdDone } from 'react-icons/md'
+import './styles.css'
 
 interface singleTodo {
     todo: Todo;
