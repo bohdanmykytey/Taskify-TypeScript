@@ -98,6 +98,10 @@
   cursor: pointer;
 }
 
+.todos_single--text {
+  outline: none;
+}
+
 @media (max-width: 1200px) {
   .todos_single {
     width: 40%;
